@@ -39,8 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
     vendor/xiaomi/picasso/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/xiaomi/picasso/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
-    vendor/xiaomi/picasso/proprietary/product/vendor_overlay/29/lib/soundfx:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx \
-    vendor/xiaomi/picasso/proprietary/product/vendor_overlay/29/lib64/soundfx:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx
+    vendor/xiaomi/picasso/proprietary/product/vendor_overlay/29/lib/soundfx:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libvolumelistener.so \
+    vendor/xiaomi/picasso/proprietary/product/vendor_overlay/29/lib64/soundfx:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so \
     vendor/xiaomi/picasso/proprietary/product/etc/CarrierSettings/airtel_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airtel_in.pb \
     vendor/xiaomi/picasso/proprietary/product/etc/CarrierSettings/att5g_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att5g_us.pb \
     vendor/xiaomi/picasso/proprietary/product/etc/CarrierSettings/att_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att_us.pb \
