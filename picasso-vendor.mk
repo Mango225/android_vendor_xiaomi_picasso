@@ -289,6 +289,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.connection@1.1.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.iwlan@1.0.so \
+    vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.dsp@1.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.fm@1.0.so \
@@ -349,6 +350,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsconfig@2.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsconfig@2.1.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.imsrtpservice@3.0.so \
+    vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.latency@2.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.qspmhal@1.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.voiceprint@1.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
@@ -507,6 +509,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.connection@1.1.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
+    vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.dsp@1.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.fm@1.0.so \
@@ -568,6 +571,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@2.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@2.1.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
+    vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qspmhal@1.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
@@ -643,7 +647,7 @@ PRODUCT_PACKAGES += \
     izat.xt.srv \
     qcrilhook \
     qmapbridge \
-    #qti-telephony-common \
+    qti-telephony-common \
     qti-telephony-hidl-wrapper \
     qti-telephony-utils \
     remotesimlockmanagerlibrary \
@@ -667,6 +671,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.connection-V1.1-java \
     vendor.qti.hardware.data.dynamicdds-V1.0-java \
     vendor.qti.hardware.data.iwlan-V1.0-java \
+    vendor.qti.hardware.data.latency-V1.0-java \
     vendor.qti.hardware.data.qmi-V1.0-java \
     vendor.qti.hardware.slmadapter-V1.0-java \
     vendor.qti.hardware.wigig.netperftuner-V1.0-java \
@@ -679,5 +684,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig-V1.1-java \
     vendor.qti.ims.rcsconfig-V2.0-java \
     vendor.qti.ims.rcsconfig-V2.1-java \
+    vendor.qti.latency-V2.0-java \
     vendor.qti.voiceprint-V1.0-java \
     wigig-service
