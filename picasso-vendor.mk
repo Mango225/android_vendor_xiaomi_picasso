@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/system_ext/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/UimGba.xml \
     vendor/xiaomi/picasso/proprietary/system_ext/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/UimGbaManager.xml \
     vendor/xiaomi/picasso/proprietary/system_ext/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/UimService.xml \
+    vendor/xiaomi/picasso/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/picasso/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/xiaomi/picasso/proprietary/system_ext/etc/permissions/com.qti.media.secureprocessor.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.media.secureprocessor.xml \
     vendor/xiaomi/picasso/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
@@ -315,6 +316,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so
 
 PRODUCT_PACKAGES += \
+    HotwordEnrollmentOKGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON \
     PowerOffAlarm \
     QtiTelephonyService \
     WigigTetheringRRO \
@@ -329,6 +332,7 @@ PRODUCT_PACKAGES += \
     uimremoteclient \
     uimremoteserver \
     xdivert \
+    com.android.hotwordenrollment.common.util \
     WfdService \
     dpmserviceapp \
     ims \
