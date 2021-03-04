@@ -313,27 +313,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/system_ext/bin/dun-server:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dun-server \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/picasso/proprietary/product/vendor_overlay/30/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/picasso/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so \
-    vendor/xiaomi/picasso/proprietary/system/etc/permissions/com.motorola.dolby.dolbyui.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.dolby.dolbyui.features.xml \
-    vendor/xiaomi/picasso/proprietary/system/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml \
-    vendor/xiaomi/picasso/proprietary/system_ext/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.dolby.daxservice.xml \
-    vendor/xiaomi/picasso/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/bin/hw/vendor.dolby.hardware.dms@1.0-service \
-    vendor/xiaomi/picasso/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/dolby/dax-default.xml \
-    vendor/xiaomi/picasso/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
-    vendor/xiaomi/picasso/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libswdap.so \
-    vendor/xiaomi/picasso/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libswdap.so \
-    vendor/xiaomi/picasso/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/vendor.dolby.hardware.dms@1.0.so \
-    vendor/xiaomi/picasso/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/vendor.dolby.hardware.dms@1.0-impl.so \
-    vendor/xiaomi/picasso/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/vendor.dolby.hardware.dms@1.0.so \
-    vendor/xiaomi/picasso/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/libdapparamstorage.so \
-    vendor/xiaomi/picasso/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/libdapparamstorage.so \
-    vendor/xiaomi/picasso/proprietary/vendor/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/libdlbdsservice.so \
-    vendor/xiaomi/picasso/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/libstagefrightdolby.so
-    
+    vendor/xiaomi/picasso/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so
+
 PRODUCT_PACKAGES += \
     PowerOffAlarm \
-    MotoDolbyV3 \
-    daxService \
     QtiTelephonyService \
     WigigTetheringRRO \
     atfwd \
